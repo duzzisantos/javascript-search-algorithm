@@ -1,1 +1,155 @@
+/** THE NAVBAR **/
+body{
+    font-family: "Rubik", sans-serif;
+}
+nav {
+    height: 100px;
+    background-color: cornflowerblue;
+    margin-bottom: 35px;
+    width: 100%;
+    /*change made here*/
+    display: inline-block;
+    z-index: 1;
+    top: 0px;
+    position: fixed;
+    margin-left: -8px;
+}
 
+label.logo {
+    color: white;
+    font-size: 50px;
+    line-height: 80px;
+    font-weight: 700;
+    margin-left: 30px;
+}
+
+nav ul {
+    float: right;
+    margin-right: 45px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 15px;
+    margin-top: -10px;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 24px;
+    text-decoration-line: none;
+}
+
+nav ul li a:hover {
+    color: #93cbcee8;
+    background: none;
+}
+
+.checkbtn {
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+/*COLLAPSIBLE NAVBAR*/
+
+@media (max-width: 952px) {
+    label.logo {
+        font-size: 40px;
+        padding-left: 50px;
+    }
+    nav ul li a {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 856px) {
+    .checkbtn {
+        display: block;
+    }
+    nav ul {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background-color: rgb(124, 117, 117);
+        top: 80px;
+        left: -150%;
+        text-align: center;
+        transition: all .5s;
+        display: block;
+    }
+    nav ul li {
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    nav ul li a {
+        font-size: 20px;
+    }
+    a:hover, a.active {
+        background: none;
+        color: #a7acaf;
+    }
+    #check:checked ~ ul {
+        left: 0;
+    }
+    label.logo {
+        margin-left: 0;
+    }
+}
+.container {
+    height: 120px;
+    width: 100%;
+}
+
+.row{
+    height: 440px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.head{
+    height: 150px;
+    width: 100%;
+}
+.select-box{
+    height: 400px;
+    width: 47.5%;
+    background-color: rgba(245, 245, 245, 0.808);
+    overflow: hidden;
+}
+.result-box{
+    height: 400px;
+    width: 47.5%;
+    background-color: rgba(245, 245, 245, 0.808);
+    margin-left: 5%;
+    overflow: hidden;
+}
+h1{
+    padding-top: 120px;
+    text-align: center;
+    color: rgba(0,0,0,0.35);
+    font-size: 50px;
+}
+
+label, input, select{
+    display: block;
+    margin-left: 25px;
+    margin-top: 10px;
+    height: 30px;
+    width: 300px;
+}
+
+.select-box p{
+    margin-top: 10px;
+    margin-left: 25px;
+}

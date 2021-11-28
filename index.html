@@ -1,1 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="jobalgo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Rubik:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <title>Jobalgo</title>
+</head>
+
+<body>
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <label class="logo">Jobalgo<i class="fas fa-male"></i></label>
+        <ul class="nav-links">
+            <li><a href="jobalgo.html">Home</a></li>
+            <li><a href="jobalgo-category.html">Job Category</a></li>
+            <li><a href="jobalgo-sponsors.html">Our sponsors</a></li>
+        </ul>
+    </nav>
+
+    <h1>Use your skills to find a job match</h1>
+    <section class="row">
+        <div class="select-box">
+            <form action="">
+                <label for="name">Name:</label>
+                <input type="text">
+                <label for="academic qualification">Academic qualification:</label>
+                <select name="academic credential" id="acadLevel">
+                    <option value="select">--Select--</option>
+                    <option value="diploma">Diploma</option>
+                    <option value="bachelors">Bachelors</option>
+                    <option value="masters">Masters</option>
+                    <option value="doctorate">Doctorate</option>
+                </select>
+                <p>Top 4 skills:</p>
+                <select name="skill1" id="skill1">
+                    <option value="skill1">--Skill 1--</option>
+                    <option value="law">Law</option>
+                    <option value="surgery">Surgery</option>
+                    <option value="electronics">Electronics</option>
+                    <option value="sales">Sales</option>
+                    <option value="programming">Programming</option>
+                </select>
+
+                <select name="skill1" id="skill2">
+                    <option value="skill2">--Skill 2--</option>
+                    <option value="law">Law</option>
+                    <option value="surgery">Surgery</option>
+                    <option value="electronics">Electronics</option>
+                    <option value="sales">Sales</option>
+                    <option value="programming">Programming</option>
+                </select>
+
+                <select name="skill1" id="skill3">
+                    <option value="skill3">--Skill 3--</option>
+                    <option value="law">Law</option>
+                    <option value="surgery">Surgery</option>
+                    <option value="electronics">Electronics</option>
+                    <option value="sales">Sales</option>
+                    <option value="programming">Programming</option>
+                </select>
+
+                <select name="skill1" id="skill4">
+                    <option value="skill4">--Skill 4--</option>
+                    <option value="law">Law</option>
+                    <option value="surgery">Surgery</option>
+                    <option value="electronics">Electronics</option>
+                    <option value="sales">Sales</option>
+                    <option value="programming">Programming</option>
+                </select>
+            </form>
+        </div>
+        <div class="result-box"></div>
+    </section>
+</body>
+<script src="jobalgo.js"></script>
+
+</html>
