@@ -204,11 +204,14 @@ for (let job of jobs) {
 }
 //This is just a test
 
-const skill1 = document.getElementById("skill1");
-const skill2 = document.getElementById("skill2");
-const skill3 = document.getElementById("skill3");
-const skill4 = document.getElementById("skill4");
+let acadLevel = document.getElementById("acadLevel");
+let skill1 = document.getElementById("skill1");
+let skill2 = document.getElementById("skill2");
+let skill3 = document.getElementById("skill3");
+let skill4 = document.getElementById("skill4");
 
-const mySkill = () => {
-    
-};
+skill1.addEventListener("change", () =>{
+    if(skill1.selectedIndex === 0 && acadLevel.selectedIndex === 0){
+        console.log("This actually works!");
+    }
+})
