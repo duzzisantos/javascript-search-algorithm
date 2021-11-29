@@ -211,7 +211,7 @@ let skill3 = document.getElementById("skill3");
 let skill4 = document.getElementById("skill4");
 
 skill1.addEventListener("change", () =>{
-    if(skill1.selectedIndex === 0 && acadLevel.selectedIndex === 0){
+    if(skill1.selectedIndex === 1 && acadLevel.selectedIndex === 1){
         console.log("This actually works!");
     }
 })
