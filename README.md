@@ -11,4 +11,11 @@ This is a Javascript search algorithm that displays a user's job preferences bas
  - CSS
  - JavaScript
 
-# Methods
+# Data structure
+ - Arrays: contain the labelled data which are in objects
+ - Objects: contain the titled data which have unique IDs, skill categories and applicable industries.
+ - Arrays in objects: these contain either the list of skills of industries 
+
+# Data quality
+The user can only select designated options which trigger suggestions based on the data we have in the array of
+objects. An input element was not used in order to control the quality of data or search category.
