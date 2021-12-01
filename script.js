@@ -198,41 +198,26 @@ let jobs = [
   },
 ];
 
-// //This is just a test 
-// function myFunction(){
-//   let x = document.getElementById('mySelect').selectedIndex;
-//   let y = document.getElementsByName("option");
-//   let val = y[x].value;
-//   console.log(val);
-// }
+//Test the outline of the data by iterating using for--of
+for (let job of jobs) {
+  console.log(job);
+}
+//This is just a test
 
+const acadLevel = document.getElementById("acadLevel");
+const skill1 = document.getElementById("skill1");
+const skill2 = document.getElementById("skill2");
+const skill3 = document.getElementById("skill3");
+const skill4 = document.getElementById("skill4");
+const skill5 = document.getElementById("skill5");
 
-//A shortened variable declaration for the elements with the IDs skill1, skill2, skill3, skill4 and skill5:
-
-let a = document.getElementById("skill1").selectedIndex;
-let b = document.getElementById("skill2").selectedIndex;
-let c = document.getElementById("skill3").selectedIndex;
-let d = document.getElementById("skill4").selectedIndex;
-let e = document.getElementById("skill5").selectedIndex;
-
-//The options of the 5 select menus will state the selected index with this method:
-let v = document.getElementsByName("optionsV");
-let skill1 = v[a].value;
-let w = document.getElementsByName("optionsW");
-let skill2 = w[b].value;
-let x = document.getElementsByName("optionsX");
-let skill3 = x[c].value;
-let y = document.getElementsByName("optionsY");
-let skill4 = y[d].value;
-let z = document.getElementsByName("optionsZ");
-let skill5 = z[e].value;
-
-
-let paraOne = document.getElementById("paraOne");
-let paraTwo = document.getElementById("paraTwo");
-let paraThree = document.getElementById("paraThree");
-
-
-
-//Implement event listener ('change') to output defined data when a menu option is selected:
-
+const skillSet = [skill1, skill2, skill3, skill4, skill5];
+for (let i = 0; i < skillSet.length; i++) {
+  skillSet[i].addEventListener("change", () => {
+    if (acadLevel.selectedIndex === 1 && skillSet[i].selectedIndex === 1) {
+      console.log("Right selection");
+    } else if (acadLevel.selectedIndex === 2 && skillSet[i].selectedIndex === 2) {
+      console.log("Wrong selection");
+    }
+  });
+}
