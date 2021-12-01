@@ -204,14 +204,20 @@ for (let job of jobs) {
 }
 //This is just a test
 
-let acadLevel = document.getElementById("acadLevel");
-let skill1 = document.getElementById("skill1");
-let skill2 = document.getElementById("skill2");
-let skill3 = document.getElementById("skill3");
-let skill4 = document.getElementById("skill4");
+const acadLevel = document.getElementById("acadLevel");
+const skill1 = document.getElementById("skill1");
+const skill2 = document.getElementById("skill2");
+const skill3 = document.getElementById("skill3");
+const skill4 = document.getElementById("skill4");
+const skill5 = document.getElementById("skill5");
 
-skill1.addEventListener("change", () =>{
-    if(skill1.selectedIndex === 1 && acadLevel.selectedIndex === 1){
-        console.log("This actually works!");
+const skillSet = [skill1, skill2, skill3, skill4, skill5];
+for (let i = 0; i < skillSet.length; i++) {
+  skillSet[i].addEventListener("change", () => {
+    if (acadLevel.selectedIndex === 1 && skillSet[i].selectedIndex === 1) {
+      console.log("Right selection");
+    } else if (acadLevel.selectedIndex === 2 && skillSet[i].selectedIndex === 2) {
+      console.log("Wrong selection");
     }
-})
+  });
+}
