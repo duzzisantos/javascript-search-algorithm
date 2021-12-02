@@ -222,6 +222,30 @@ for (let i = 0; i < skill.length; i++) {
       paraOne.innerText = `${jobs[6].industry}`;
       paraTwo.innerText = `${jobs[7].industry}`;
       paraThree.innerText = `${jobs[9].industry}`;
-    }
+    }else if(skill[i].selectedIndex === 1 || skill[i].selectedIndex === 10 || skill[i].selectedIndex === 11 || skill[i].selectedIndex === 12 || skill[i].selectedIndex === 13){
+      paraOne.innerText = `${jobs[10].industry}`;
+      paraTwo.innerText = `${jobs[11].industry}`;
+      paraThree.innerText = `${jobs[12].industry}`;
+    }else if(skill[i].selectedIndex === 1 || skill[i].selectedIndex === 14 || skill[i].selectedIndex === 15 || skill[i].selectedIndex === 16 || skill[i].selectedIndex === 17){
+      paraOne.innerText = `${jobs[14].industry}`;
+      paraTwo.innerText = `${jobs[15].industry}`;
+      paraThree.innerText = `${jobs[16].industry}`;
+    } else if(skill[i].selectedIndex === 1 || skill[i].selectedIndex === 18 || skill[i].selectedIndex === 19 || skill[i].selectedIndex === 20 || skill[i].selectedIndex === 21){
+      paraOne.innerText = `${jobs[18].industry}`;
+      paraTwo.innerText = `${jobs[19].industry}`;
+      paraThree.innerText = `${jobs[20].industry}`;
+    }else if(skill[i].selectedIndex === 1 || skill[i].selectedIndex === 22 || skill[i].selectedIndex === 23 || skill[i].selectedIndex === 24 || skill[i].selectedIndex === 25){
+      paraOne.innerText = `${jobs[22].industry}`;
+      paraTwo.innerText = `${jobs[24].industry}`;
+      paraThree.innerText = `${jobs[25].industry}`;
+    } else if(skill[i].selectedIndex === 1 || skill[i].selectedIndex === 26 || skill[i].selectedIndex === 27 || skill[i].selec9edIndex === 28 || skill[i].selectedIndex === 25){
+      paraOne.innerText = `${jobs[27].industry}`;
+      paraTwo.innerText = `${jobs[28].industry}`;
+      paraThree.innerText = `${jobs[29].industry}`;
+    } else if(skill[i].selectedIndex === 1 || skill[i].selectedIndex === 30 || skill[i].selectedIndex === 2 || skill[i].selectedIndex === 3 || skill[i].selectedIndex === 4){
+      paraOne.innerText = `${jobs[30].industry}`;
+      paraTwo.innerText = `${jobs[1].industry}`;
+      paraThree.innerText = `${jobs[2].industry}`;
+    } //to be continued: next the number #2 permutations.
   });
 }
