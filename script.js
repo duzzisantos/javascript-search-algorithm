@@ -213,7 +213,7 @@ const skill5 = document.getElementById("skill5");
 
 const skill = [skill1, skill2, skill3, skill4, skill5];
 for (let i = 0; i < skill.length; i++) {
-  skill[i].addEventListener("change", () => {
+  skill[i].addEventListener("change", () => {//these conditionals are permutations of the number 1 to 30 in 210 combinations
     if (skill[i].selectedIndex === 1 || skill[i].selectedIndex === 2 || skill[i].selectedIndex === 3 || skill[i].selectedIndex === 4 || skill[i].selectedIndex === 5) {
       paraOne.innerText = `${jobs[0].industry}`;
       paraTwo.innerText = `${jobs[0].industry}`;
