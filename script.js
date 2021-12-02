@@ -211,13 +211,17 @@ const skill3 = document.getElementById("skill3");
 const skill4 = document.getElementById("skill4");
 const skill5 = document.getElementById("skill5");
 
-const skillSet = [skill1, skill2, skill3, skill4, skill5];
-for (let i = 0; i < skillSet.length; i++) {
-  skillSet[i].addEventListener("change", () => {
-    if (acadLevel.selectedIndex === 1 && skillSet[i].selectedIndex === 1) {
-      console.log("Right selection");
-    } else if (acadLevel.selectedIndex === 2 && skillSet[i].selectedIndex === 2) {
-      console.log("Wrong selection");
+const skill = [skill1, skill2, skill3, skill4, skill5];
+for (let i = 0; i < skill.length; i++) {
+  skill[i].addEventListener("change", () => {
+    if (skill[i].selectedIndex === 1 || skill[i].selectedIndex === 2 || skill[i].selectedIndex === 3 || skill[i].selectedIndex === 4 || skill[i].selectedIndex === 5) {
+      paraOne.innerText = `${jobs[0].industry}`;
+      paraTwo.innerText = `${jobs[0].industry}`;
+      paraThree.innerText = `${jobs[4].industry[i]}`;
+    } else if (skill[i].selectedIndex === 1 || skill[i].selectedIndex === 6 || skill[i].selectedIndex === 7 || skill[i].selectedIndex === 8 || skill[i].selectedIndex === 9) {
+      paraOne.innerText = `${jobs[6].industry}`;
+      paraTwo.innerText = `${jobs[7].industry}`;
+      paraThree.innerText = `${jobs[9].industry}`;
     }
   });
 }
