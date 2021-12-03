@@ -286,6 +286,34 @@ for (let i = 0; i < skill.length; i++) {
       x.innerText = `${jobs[0].industry}`;
       y.innerText = `${jobs[26]}`;
       z.innerText =  `${jobs[27].industry[2]}, ${jobs[27].industry[5]}, ${jobs[30].industry}`;
-    } 
+    } else if(skill[i].selectedIndex === 3 || skill[i].selectedIndex === 4 || skill[i].selectedIndex === 5 || skill[i].selectedIndex === 6 || skill[i].selectedIndex === 7){
+      x.innerText = `${jobs[0].industry}`;
+      y.innerText = `${jobs[5]}`;
+      z.innerText =  `${jobs[6].industry}`;
+    } else if(skill[i].selectedIndex === 3 || skill[i].selectedIndex === 8 || skill[i].selectedIndex === 9 || skill[i].selectedIndex === 10 || skill[i].selectedIndex === 11){
+      x.innerText = `${jobs[7].industry}`;
+      y.innerText = `${jobs[8]}`;
+      z.innerText =  `${jobs[10].industry}`;
+    }  else if(skill[i].selectedIndex === 3 || skill[i].selectedIndex === 12 || skill[i].selectedIndex === 13 || skill[i].selectedIndex === 14 || skill[i].selectedIndex === 15){
+      x.innerText = `${jobs[11].industry}, ${jobs[0].industry}`;
+      y.innerText = `${jobs[13]}`;
+      z.innerText =  `${jobs[14].industry}`;
+    }  else if(skill[i].selectedIndex === 3 || skill[i].selectedIndex === 16|| skill[i].selectedIndex === 17 || skill[i].selectedIndex === 18 || skill[i].selectedIndex === 19){
+      x.innerText = `${jobs[15].industry}, ${jobs[0].industry}`;
+      y.innerText = `${jobs[16]}`;
+      z.innerText =  `${jobs[17].industry}`;
+    }  else if(skill[i].selectedIndex === 3 || skill[i].selectedIndex === 20 || skill[i].selectedIndex === 21 || skill[i].selectedIndex === 22 || skill[i].selectedIndex === 23){
+      x.innerText = `${jobs[19].industry}, ${jobs[0].industry}`;
+      y.innerText = `${jobs[20]}, ${jobs[22].industry[1]}`;
+      z.innerText =  `${jobs[21].industry}`;
+    }  else if(skill[i].selectedIndex === 3 || skill[i].selectedIndex === 24 || skill[i].selectedIndex === 25 || skill[i].selectedIndex === 26 || skill[i].selectedIndex === 27){
+      x.innerText = `${jobs[24].industry}, ${jobs[0].industry}`;
+      y.innerText = `${jobs[25]}`;
+      z.innerText =  `${jobs[27].industry}`;
+    }  else if(skill[i].selectedIndex === 3 || skill[i].selectedIndex === 28 || skill[i].selectedIndex === 29 || skill[i].selectedIndex === 30 || skill[i].selectedIndex === 1){
+      x.innerText = `${jobs[27].industry}`;
+      y.innerText = `${jobs[28]}`;
+      z.innerText =  `${jobs[29].industry}, ${jobs[0].industry}`;
+    } //The fourth set of conditionals start here
   });
 }
