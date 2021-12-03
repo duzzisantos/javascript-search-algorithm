@@ -1,4 +1,4 @@
-//Object containing the job information
+//Array of objects containing the job information
 
 let jobs = [
   {
