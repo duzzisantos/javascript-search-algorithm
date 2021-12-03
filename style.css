@@ -153,3 +153,45 @@ label, input, select{
     margin-top: 10px;
     margin-left: 25px;
 }
+
+button{
+    margin-top: 10px;
+    margin-left: 25px;
+    padding: 10px;
+    width: 100px;
+}
+
+details{
+    color: cornflowerblue;
+    margin-left: 25px;
+    margin-top: 10px;
+}
+
+summary{
+    color: gray;
+}
+
+h2{
+    margin-left: 25px;
+    color: cornflowerblue;
+}
+
+#paraOne, #paraTwo, #paraThree{
+    text-transform: capitalize;
+    /* text-decoration-line: underline; */
+    font-size: 18px;
+    color: #a7acaf;
+    text-justify: inter-ideograph;
+    -ms-text-justify: inter-ideograph;
+}
+
+#acadLabel, p{
+    color: cornflowerblue;
+    font-size: 17px;
+}
+
+select{
+    color: #a7acaf;
+    border: 1px solid #a7acaf;
+    font-size: 15px;
+}
