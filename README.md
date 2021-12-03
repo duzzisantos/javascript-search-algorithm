@@ -28,6 +28,6 @@ objects. An input element was not used in order to control the quality of data o
  - AddEventListeners were used to trigger responses(iteration >>> output), whenever a select menu is selected. The 'change' method was used. For every change in the selected index, a corresponding change in output follows suite, so long as the options do not fall within the same category.
 
  - If--else statements will used to condition the 5-combinations-per-sequence permutation.
- - The innerText DOM method will be used to affix data into the paragraphs inside the <detail> and <summary> elements (The grandparent and parent nodes of the output respectively). The data from the objects within the "jobs" array are called based on their indices, and serve as the innerText content.
+ - The innerText DOM method will be used to affix data into the paragraphs inside the detail and summary elements (The grandparent and parent nodes of the output respectively). The data from the objects within the "jobs" array are called based on their indices, and serve as the innerText content.
 
 # Challenges and lessons learned
