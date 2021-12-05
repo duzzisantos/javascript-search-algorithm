@@ -222,3 +222,13 @@ select{
         margin-left: 40px;
     }
 }
+
+@media screen and (min-width: 856px){
+    select{
+        margin-left: 60px;
+        width: 300px;
+    }
+    #acadLabel, #topSkills{
+        margin-left: 60px;
+    }
+}
