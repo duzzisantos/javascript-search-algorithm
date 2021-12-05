@@ -144,9 +144,21 @@ h1{
     font-size: 50px;
 }
 
-label, input, select{
+label{
     display: block;
     margin-left: 25px;
+    margin-top: 10px;
+    height: 30px;
+    width: 300px;
+}
+
+select{
+    color: #a7acaf;
+    border: 1px solid #c3c6c7;
+    font-size: 15px;
+    margin-left: 160px;
+    border-radius: 5px;
+    display: block;
     margin-top: 10px;
     height: 30px;
     width: 300px;
@@ -193,14 +205,6 @@ h2{
     font-size: 17px;
 }
 
-
-select{
-    color: #a7acaf;
-    border: 1px solid #c3c6c7;
-    font-size: 15px;
-    margin-left: 160px;
-    border-radius: 5px;
-}
 
 
 @media screen and (max-width: 500px){

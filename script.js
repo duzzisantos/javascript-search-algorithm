@@ -503,6 +503,6 @@ for (let i = 0; i < skill.length; i++) {
       x.innerText = `${jobs[4].industry}`;
       y.innerText = `${jobs[5].industry}`;
       z.innerText =  `${jobs[8].industry}`;
-    } //The 11th conditionals start here 
+    } //The 11th conditionals start here!!!!!
   });
 }
