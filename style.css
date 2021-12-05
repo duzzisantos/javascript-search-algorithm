@@ -76,6 +76,9 @@ nav ul li a:hover {
     .checkbtn {
         display: block;
     }
+    i{
+        margin-left: 250px;
+    }
     nav ul {
         position: fixed;
         width: 100%;
@@ -190,8 +193,32 @@ h2{
     font-size: 17px;
 }
 
+
 select{
     color: #a7acaf;
-    border: 1px solid #a7acaf;
+    border: 1px solid #c3c6c7;
     font-size: 15px;
+    margin-left: 160px;
+    border-radius: 5px;
+}
+
+
+@media screen and (max-width: 500px){
+    select{
+        margin-left: 20px;
+        width: 170px;
+    }
+    #acadLabel, #topSkills{
+        margin-left: 20px;
+    }
+}
+
+@media screen and (min-width: 768px){
+    select{
+        margin-left: 40px;
+        width: 270px;
+    }
+    #acadLabel, #topSkills{
+        margin-left: 40px;
+    }
 }
