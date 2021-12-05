@@ -228,7 +228,7 @@ for (let i = 0; i < skill.length; i++) {
   skill[i].addEventListener("change", () => { 
     //these conditionals are permutations of the selected index numbers 1 to 30 in 210 combinations
     if (skill[i].selectedIndex === 1 || skill[i].selectedIndex === 2 || skill[i].selectedIndex === 3 || skill[i].selectedIndex === 4 || skill[i].selectedIndex === 5) {
-      x.innerText = `${jobs[0].industry}`;
+      x.innerText = `${jobs[0].industry}`; //first set of combinations
       y.innerText = `${jobs[3].industry}`;
       z.innerText = `${jobs[4].industry[0]}, ${jobs[4].industry[3]}, ${jobs[4].industry[5]}`; 
     } else if (skill[i].selectedIndex === 1 || skill[i].selectedIndex === 6 || skill[i].selectedIndex === 7 || skill[i].selectedIndex === 8 || skill[i].selectedIndex === 9) {
@@ -260,7 +260,7 @@ for (let i = 0; i < skill.length; i++) {
       y.innerText = `${jobs[2].industry}`;
       z.innerText  = `${jobs[30].industry}`;
     } else if(skill[i].selectedIndex === 2 || skill[i].selectedIndex === 3 || skill[i].selectedIndex === 4 || skill[i].selectedIndex === 5 || skill[i].selectedIndex === 6){
-      x.innerText = `${jobs[0].industry}`;  
+      x.innerText = `${jobs[0].industry}`;  //2nd set of combinations
       y.innerText = `${jobs[3].industry}`;
       z.innerText  =  `${jobs[4].industry[0]}, ${jobs[4].industry[3]}, ${jobs[4].industry[5]}`;
     } else if(skill[i].selectedIndex === 2 || skill[i].selectedIndex === 7 || skill[i].selectedIndex === 8 || skill[i].selectedIndex === 8 || skill[i].selectedIndex === 9){
@@ -288,7 +288,7 @@ for (let i = 0; i < skill.length; i++) {
       y.innerText = `${jobs[26]}`;
       z.innerText =  `${jobs[27].industry[2]}, ${jobs[27].industry[5]}, ${jobs[30].industry}`;
     } else if(skill[i].selectedIndex === 3 || skill[i].selectedIndex === 4 || skill[i].selectedIndex === 5 || skill[i].selectedIndex === 6 || skill[i].selectedIndex === 7){
-      x.innerText = `${jobs[0].industry}`;
+      x.innerText = `${jobs[0].industry}`; //3rd set of combinations
       y.innerText = `${jobs[5]}`;
       z.innerText =  `${jobs[6].industry}`;
     } else if(skill[i].selectedIndex === 3 || skill[i].selectedIndex === 8 || skill[i].selectedIndex === 9 || skill[i].selectedIndex === 10 || skill[i].selectedIndex === 11){
@@ -316,7 +316,7 @@ for (let i = 0; i < skill.length; i++) {
       y.innerText = `${jobs[28]}`;
       z.innerText =  `${jobs[29].industry}, ${jobs[0].industry}`;
     } else if(skill[i].selectedIndex === 4 || skill[i].selectedIndex === 13 || skill[i].selectedIndex === 14 || skill[i].selectedIndex === 15 || skill[i].selectedIndex === 16){
-      x.innerText = `${jobs[13].industry}`;
+      x.innerText = `${jobs[13].industry}`; //4th set of combinations
       y.innerText = `${jobs[14]}`;
       z.innerText =  `${jobs[15].industry}, ${jobs[16].industry}`;
     } else if(skill[i].selectedIndex === 4 || skill[i].selectedIndex === 17 || skill[i].selectedIndex === 18 || skill[i].selectedIndex === 19 || skill[i].selectedIndex === 20){
@@ -336,7 +336,7 @@ for (let i = 0; i < skill.length; i++) {
       y.innerText = `${jobs[28]}`;
       z.innerText =  `${jobs[29].industry}, ${jobs[1].industry}`;
     } else if(skill[i].selectedIndex === 5 || skill[i].selectedIndex === 6 || skill[i].selectedIndex === 7 || skill[i].selectedIndex === 8 || skill[i].selectedIndex === 9){
-      x.innerText = `${jobs[4].industry}`;
+      x.innerText = `${jobs[4].industry}`; //5th set of combinations
       y.innerText = `${jobs[5]}`;
       z.innerText =  `${jobs[8].industry}`;
     } else if(skill[i].selectedIndex === 5 || skill[i].selectedIndex === 10 || skill[i].selectedIndex === 11 || skill[i].selectedIndex === 12 || skill[i].selectedIndex === 13){
@@ -364,7 +364,7 @@ for (let i = 0; i < skill.length; i++) {
       y.innerText = `${jobs[1]}, ${jobs[4].industry}`;
       z.innerText =  `${jobs[29].industry}`;
     } else if(skill[i].selectedIndex === 6 || skill[i].selectedIndex === 7 || skill[i].selectedIndex === 8 || skill[i].selectedIndex === 9 || skill[i].selectedIndex === 10){
-      x.innerText = `${jobs[5].industry}`;
+      x.innerText = `${jobs[5].industry}`; //6th set of combinations
       y.innerText = `${jobs[7].industry}`;
       z.innerText =  `${jobs[9].industry}`;
     } else if(skill[i].selectedIndex === 6 || skill[i].selectedIndex === 11 || skill[i].selectedIndex === 12 || skill[i].selectedIndex === 13 || skill[i].selectedIndex === 14){
@@ -392,7 +392,7 @@ for (let i = 0; i < skill.length; i++) {
       y.innerText = `${jobs[0].industry}`;
       z.innerText =  `${jobs[1].industry}`;
     } else if(skill[i].selectedIndex === 7 || skill[i].selectedIndex === 8 || skill[i].selectedIndex === 9 || skill[i].selectedIndex === 10 || skill[i].selectedIndex === 11){
-      x.innerText = `${jobs[6].industry}`;
+      x.innerText = `${jobs[6].industry}`; //7th set of combinations
       y.innerText = `${jobs[7].industry[0]}, ${jobs[8]}`;
       z.innerText =  `${jobs[10].industry}`;
     } else if(skill[i].selectedIndex === 7 || skill[i].selectedIndex === 12 || skill[i].selectedIndex === 13 || skill[i].selectedIndex === 14 || skill[i].selectedIndex === 15){
@@ -420,7 +420,7 @@ for (let i = 0; i < skill.length; i++) {
       y.innerText = `${jobs[0].industry}`;
       z.innerText =  `${jobs[4].industry}`;
     } else if(skill[i].selectedIndex === 8 || skill[i].selectedIndex === 9 || skill[i].selectedIndex === 10 || skill[i].selectedIndex === 11 || skill[i].selectedIndex === 12){
-      x.innerText = `${jobs[7].industry}`;
+      x.innerText = `${jobs[7].industry}`; //8th set of combinations
       y.innerText = `${jobs[8].industry}`;
       z.innerText =  `${jobs[10].industry}`;
     } else if(skill[i].selectedIndex === 8 || skill[i].selectedIndex === 13 || skill[i].selectedIndex === 14 || skill[i].selectedIndex === 15 || skill[i].selectedIndex === 16){
@@ -448,7 +448,7 @@ for (let i = 0; i < skill.length; i++) {
       y.innerText = `${jobs[0].industry}, ${jobs[4].industry}`;
       z.innerText =  `${jobs[5].industry}`;
     } else if(skill[i].selectedIndex === 9 || skill[i].selectedIndex === 10 || skill[i].selectedIndex === 11 || skill[i].selectedIndex === 12 || skill[i].selectedIndex === 13){
-      x.innerText = `${jobs[8].industry}`;
+      x.innerText = `${jobs[8].industry}`; //9th set of combinations
       y.innerText = `${jobs[10].industry}`;
       z.innerText =  `${jobs[12].industry}`;
     } else if(skill[i].selectedIndex === 9 || skill[i].selectedIndex === 14 || skill[i].selectedIndex === 15 || skill[i].selectedIndex === 16 || skill[i].selectedIndex === 17){
@@ -503,6 +503,6 @@ for (let i = 0; i < skill.length; i++) {
       x.innerText = `${jobs[4].industry}`;
       y.innerText = `${jobs[5].industry}`;
       z.innerText =  `${jobs[8].industry}`;
-    } //The 11th conditionals start here
+    } //The 11th conditionals start here 
   });
 }
