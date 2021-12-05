@@ -215,7 +215,7 @@ select{
 
 @media screen and (min-width: 768px){
     select{
-        margin-left: 40px;
+        margin-left: 45%;
         width: 270px;
     }
     #acadLabel, #topSkills{
@@ -225,7 +225,7 @@ select{
 
 @media screen and (min-width: 856px){
     select{
-        margin-left: 60px;
+        margin-left: 45%;
         width: 300px;
     }
     #acadLabel, #topSkills{
