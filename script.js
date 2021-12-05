@@ -476,7 +476,7 @@ for (let i = 0; i < skill.length; i++) {
       y.innerText = `${jobs[4].industry}`;
       z.innerText =  `${jobs[5].industry}`;
     } else if(skill[i].selectedIndex === 10 || skill[i].selectedIndex === 11 || skill[i].selectedIndex === 12 || skill[i].selectedIndex === 13 || skill[i].selectedIndex === 14){
-      x.innerText = `${jobs[9].industry}`;
+      x.innerText = `${jobs[9].industry}`; //10th set of combinations
       y.innerText = `${jobs[10].industry}`;
       z.innerText =  `${jobs[13].industry}`;
     } else if(skill[i].selectedIndex === 10 || skill[i].selectedIndex === 15 || skill[i].selectedIndex === 16 || skill[i].selectedIndex === 17 || skill[i].selectedIndex === 18){
