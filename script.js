@@ -503,6 +503,62 @@ for (let i = 0; i < skill.length; i++) {
       x.innerText = `${jobs[4].industry}`;
       y.innerText = `${jobs[5].industry}`;
       z.innerText =  `${jobs[8].industry}`;
-    } //The 11th conditionals start here!!!!!
+    } else if(skill[i].selectedIndex === 11 || skill[i].selectedIndex === 12 || skill[i].selectedIndex === 13 || skill[i].selectedIndex === 14 || skill[i].selectedIndex === 15){
+      x.innerText = `${jobs[10].industry}`;
+      y.innerText = `${jobs[13].industry}`;
+      z.innerText =  `${jobs[14].industry}`;
+    } else if(skill[i].selectedIndex === 11 || skill[i].selectedIndex === 16 || skill[i].selectedIndex === 17 || skill[i].selectedIndex === 18 || skill[i].selectedIndex === 19){
+      x.innerText = `${jobs[10].industry}`;
+      y.innerText = `${jobs[15].industry}`;
+      z.innerText =  `${jobs[17].industry}, ${jobs[18].industry} `;
+    } else if(skill[i].selectedIndex === 11 || skill[i].selectedIndex === 20 || skill[i].selectedIndex === 21 || skill[i].selectedIndex === 22 || skill[i].selectedIndex === 23){
+      x.innerText = `${jobs[10].industry}`;
+      y.innerText = `${jobs[19].industry}`;
+      z.innerText =  `${jobs[20].industry}, ${jobs[22].industry} `;
+    } else if(skill[i].selectedIndex === 11 || skill[i].selectedIndex === 24 || skill[i].selectedIndex === 25 || skill[i].selectedIndex === 26 || skill[i].selectedIndex === 27){
+      x.innerText = `${jobs[10].industry}`;
+      y.innerText = `${jobs[23].industry}`;
+      z.innerText =  `${jobs[25].industry}`;
+    } else if(skill[i].selectedIndex === 11 || skill[i].selectedIndex === 28 || skill[i].selectedIndex === 29 || skill[i].selectedIndex === 30 || skill[i].selectedIndex === 1){
+      x.innerText = `${jobs[10].industry}`;
+      y.innerText = `${jobs[26].industry}`;
+      z.innerText =  `${jobs[29].industry}, ${jobs[1].industry} `;
+    } else if(skill[i].selectedIndex === 11 || skill[i].selectedIndex === 2 || skill[i].selectedIndex === 3 || skill[i].selectedIndex === 4 || skill[i].selectedIndex === 5){
+      x.innerText = `${jobs[10].industry}`;
+      y.innerText = `${jobs[1].industry}`;
+      z.innerText =  `${jobs[4].industry}`;
+    } else if(skill[i].selectedIndex === 11 || skill[i].selectedIndex === 6 || skill[i].selectedIndex === 7 || skill[i].selectedIndex === 8 || skill[i].selectedIndex === 9){
+      x.innerText = `${jobs[10].industry}`;
+      y.innerText = `${jobs[5].industry}`;
+      z.innerText =  `${jobs[7].industry}, ${jobs[8].industry} `;
+    } else if(skill[i].selectedIndex === 12 || skill[i].selectedIndex === 13 || skill[i].selectedIndex === 14 || skill[i].selectedIndex === 15 || skill[i].selectedIndex === 16){
+      x.innerText = `${jobs[11].industry}`;
+      y.innerText = `${jobs[13].industry}`;
+      z.innerText =  `${jobs[15].industry}`;
+    } else if(skill[i].selectedIndex === 12 || skill[i].selectedIndex === 17 || skill[i].selectedIndex === 18 || skill[i].selectedIndex === 19 || skill[i].selectedIndex === 20){
+      x.innerText = `${jobs[11].industry}`;
+      y.innerText = `${jobs[16].industry}, ${jobs[18].industry}`;
+      z.innerText =  `${jobs[19].industry}`;
+    } else if(skill[i].selectedIndex === 12 || skill[i].selectedIndex === 21 || skill[i].selectedIndex === 22 || skill[i].selectedIndex === 23 || skill[i].selectedIndex === 24){
+      x.innerText = `${jobs[11].industry}`;
+      y.innerText = `${jobs[20].industry}, ${jobs[21].industry}`;
+      z.innerText =  `${jobs[23].industry}`;
+    } else if(skill[i].selectedIndex === 12 || skill[i].selectedIndex === 25 || skill[i].selectedIndex === 26 || skill[i].selectedIndex === 27 || skill[i].selectedIndex === 28){
+      x.innerText = `${jobs[11].industry}`;
+      y.innerText = `${jobs[25].industry[1]}`;
+      z.innerText =  ` ${jobs[27].industry}, ${jobs[28].industry}`;
+    } else if(skill[i].selectedIndex === 12 || skill[i].selectedIndex === 29 || skill[i].selectedIndex === 30 || skill[i].selectedIndex === 1 || skill[i].selectedIndex === 2){
+      x.innerText = `${jobs[11].industry}`;
+      y.innerText = `${jobs[28].industry[1]}`;
+      z.innerText =  ` ${jobs[29].industry}, ${jobs[0].industry}`;
+    } else if(skill[i].selectedIndex === 12 || skill[i].selectedIndex === 3 || skill[i].selectedIndex === 4 || skill[i].selectedIndex === 5 || skill[i].selectedIndex === 6){
+      x.innerText = `${jobs[11].industry}`;
+      y.innerText = `${jobs[0].industry}`;
+      z.innerText =  ` ${jobs[4].industry}`;
+    } else if(skill[i].selectedIndex === 12 || skill[i].selectedIndex === 7 || skill[i].selectedIndex === 8 || skill[i].selectedIndex === 9 || skill[i].selectedIndex === 10){
+      x.innerText = `${jobs[11].industry}`;
+      y.innerText = `${jobs[6].industry}`;
+      z.innerText =  ` ${jobs[9].industry}`;
+    } //The 13th set of combos go in here...
   });
 }
